@@ -1,16 +1,16 @@
-  <aside class="main-sidebar sidebar-dark-primary elevation-4">
-    <div class="dropdown">
-   	<a href="./" class="brand-link">
+  <aside class="main-sidebar sidebar-dark-primary elevation-4" style="background-color: orange">
+    <div class="dropdown" style="background-color: orange">
+   	<a href="./" class="brand-link" style="">
         <?php if($_SESSION['login_type'] == 1): ?>
-        <h3 class="text-center p-0 m-0"><b>ADMIN</b></h3>
+        <h3 class="text-center p-0 m-0"><img src="./odudwa.png" alt="" style="height: 30px"> <b>ADMIN</b></h3>
         <?php else: ?>
-        <h3 class="text-center p-0 m-0"><b>USER</b></h3>
+        <h3 class="text-center p-0 m-0"><img src="./odudwa.png" alt="" style="height: 30px"> <b>USER</b></h3>
         <?php endif; ?>
 
     </a>
       
     </div>
-    <div class="sidebar pb-4 mb-4">
+    <div class="sidebar pb-4 mb-4" style="background-color: orange">
       <nav class="mt-2">
         <ul class="nav nav-pills nav-sidebar flex-column nav-flat" data-widget="treeview" role="menu" data-accordion="false">
           <li class="nav-item dropdown">
